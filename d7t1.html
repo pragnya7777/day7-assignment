@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music World</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                        url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=compress&cs=tinysrgb&w=1600');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      font-size: 36px;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.85);
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: rgba(0, 0, 0, 0.75);
+      padding: 10px;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 16px;
+      background: #444;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    nav a:hover {
+      background: #666;
+    }
+
+    .section {
+      border: 2px dotted white;
+      margin: 20px;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+    }
+
+    .section-title {
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+
+    .album-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .album-list img {
+      width: 100px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+      transition: transform 0.3s;
+    }
+
+    .album-list img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+<header>Music World</header>
+
+<nav>
+  <a href="#">HOME</a>
+  <a href="#">ABOUT US</a>
+  <a href="#">CATEGORY</a>
+  <a href="#">PRODUCTION</a>
+  <a href="#">GALLERY</a>
+  <a href="#">CONTACT US</a>
+  <a href="#">LOGIN</a>
+</nav>
+
+<div class="section">
+  <div class="section-title">→ Latest Album ...</div>
+  <div class="album-list">
+    <img src="https://naasongs.com.co/wp-content/uploads/2025/03/Nanis-Hit-Naa-Songs-Download-Hit-2025-Songs-Download.jpg" alt="Album">
+    <img src="https://a10.gaanacdn.com/gn_img/albums/4Z9bqo3yQn/Z9bqLVeWyQ/size_l.webp" alt="Album">
+    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTlw-phK5tB5j4r6ZifuT9phxHCyv5G8mMPX3uPs8_MNKY0TvXt" alt="Album">
+    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTfBsJnWMSk716p9HN_K8eqgNMpoiq2koPWy8pSgHUmj4JbwAd4" alt="Album">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKoVOBgpK2HB9Zyc2eL2Gwjo8YZfaF0lrg7m7vleWvztGQFBgH" alt="Album">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeJxfwFLocQHsbBMCj9_w4mTn-tRR0FkK2HpWPhwK1g6f7JRGQ" alt="Album">
+    <img src="https://naasongs.com.co/wp-content/uploads/2018/10/Baahubali-2-jpeg.jpg" alt="Album">
+    <img src="https://naasongs.com.co/wp-content/uploads/2025/02/Retro-Naa-Songs-Download-Surya-Retro-2025-Tamil-Movie-Songs-pooja-Hegde.jpg" alt="Album">
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">→ TOP 10 Songs ...</div>
+  <div class="album-list">
+    <img src="https://a10.gaanacdn.com/gn_img/albums/7rVW1Rbk56/VW1EewBnWk/size_l.webp" alt="Song">
+    <img src="https://a10.gaanacdn.com/gn_img/albums/XzVWRLKdqR/VWRJBBELWd/size_l.jpg" alt="Song">
+    <img src="https://a10.gaanacdn.com/gn_img/albums/qa4WEqWP1p/4WEqYq4dWP/size_l.jpg" alt="Song">
+    <img src="https://a10.gaanacdn.com/gn_img/albums/oAJbDElKnL/JbDLBVqDbn/size_l.jpg" alt="Song">
+    <img src="https://a10.gaanacdn.com/gn_img/albums/koMWQ4B3qL/MWQ4Y9va3q/size_l_1743408285.jpg" alt="Song">
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">→ Top 10 Artists ...</div>
+  <div class="album-list">
+    <img src="https://c.saavncdn.com/artists/Arijit_Singh_004_20241118063717_500x500.jpg" alt="Artist">
+    <img src="https://c.saavncdn.com/artists/Shreya_Ghoshal_007_20241101074144_500x500.jpg" alt="Artist">
+    <img src="https://c.saavncdn.com/artists/Armaan_Malik_005_20240819091627_500x500.jpg" alt="Artist">
+    <img src="https://c.saavncdn.com/artists/Ed_Sheeran_500x500.jpg" alt="Artist">
+    <img src="https://c.saavncdn.com/artists/Diljit_Dosanjh_005_20231025073054_500x500.jpg" alt="Artist">
+  </div>
+</div>
+
+</body>
+</html>

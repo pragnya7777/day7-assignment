@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Gallery</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 32px;
+      font-weight: bold;
+      border-radius: 0 0 25px 25px;
+      margin-bottom: 20px;
+      border: 5px solid orange;
+      border-top: none;
+    }
+
+    .gallery-container {
+      border: 5px solid black;
+      border-radius: 25px;
+      margin: 0 auto 40px auto;
+      width: max-content;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      justify-items: center;
+    }
+
+    .photo {
+      width: 200px;
+      height: 200px;
+      border: 2px solid #ccc;
+      border-radius: 25px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      background-color: white;
+    }
+
+    .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 25px;
+      transition: transform 0.3s ease;
+    }
+
+    .photo img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">Photo Gallery</div>
+
+  <div class="gallery-container">
+    <div class="gallery">
+      <div class="photo"><img src="https://images.pexels.com/photos/30708395/pexels-photo-30708395/free-photo-of-close-up-of-colorful-puzzle-pieces-on-a-table.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 1"></div>
+      <div class="photo"><img src="https://images.pexels.com/photos/32326740/pexels-photo-32326740/free-photo-of-serene-winter-walk-in-misty-forest-landscape.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 2"></div>
+      <div class="photo"><img src="https://images.pexels.com/photos/32307017/pexels-photo-32307017/free-photo-of-stylish-woman-posing-near-art-gallery-wall.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 3"></div>
+      <div class="photo"><img src="https://images.pexels.com/photos/32265543/pexels-photo-32265543/free-photo-of-aerial-view-of-serpentine-road-through-dense-forest.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 4"></div>
+      <div class="photo"><img src="https://images.pexels.com/photos/30554496/pexels-photo-30554496/free-photo-of-sparrow-perched-on-bare-winter-branches.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 5"></div>
+      <div class="photo"><img src="https://images.pexels.com/photos/3585031/pexels-photo-3585031.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 6"></div>
+      <div class="photo"><img src="https://images.pexels.com/photos/5725821/pexels-photo-5725821.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 7"></div>
+      <div class="photo"><img src="https://images.pexels.com/photos/14071176/pexels-photo-14071176.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 8"></div>
+    </div>
+  </div>
+
+</body>
+</html>
